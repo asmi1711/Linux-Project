@@ -8,7 +8,9 @@ It extends the standard model by adding a priority producer that can insert item
 
 The program demonstrates thread synchronization, mutual exclusion, and efficient coordination between threads using condition variables.
 
+
 **Features:**
+
 1)Multiple producers and consumers sharing a bounded circular buffer
 
 2)Thread-safe synchronization using pthread_mutex and pthread_cond
@@ -19,11 +21,13 @@ The program demonstrates thread synchronization, mutual exclusion, and efficient
 
 5)Adjustable constants for buffer size, item count, and thread count
 
+
 **How to Build and Run:**
 
 gcc -pthread -o priority_producer_consumer priority_producer_consumer.c
 
 ./priority_producer_consumer
+
 
 **System Requirements**
 
